@@ -45,10 +45,12 @@
 </footer>
 
 <dialog id="dlg" class="glass">
-  <h3>Gemini API Key</h3>
-  <p>Key sirf is browser mein save hoti hai (localStorage). GitHub par kabhi mat daalo.</p>
-  <input id="keyIn" type="password" placeholder="AIza…">
-  <p><a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Key yahan se lo</a></p>
+  <h3>Settings</h3>
+  <p>Groq API key (sirf is browser mein save hoti hai, GitHub par kabhi mat daalo):</p>
+  <input id="keyIn" type="password" placeholder="gsk_…">
+  <p><a href="https://console.groq.com/keys" target="_blank" rel="noopener">Groq key yahan se lo</a></p>
+  <p>Image service URL (Groq image nahi banata, isliye free Pollinations use hota hai):</p>
+  <input id="imgIn" type="text">
   <div><button id="keySave" class="pill">Save</button> <button id="keyClose" class="pill">Close</button></div>
 </dialog>
 <div id="toast"></div>
